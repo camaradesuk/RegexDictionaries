@@ -1,1 +1,2 @@
+dictionaryRegexHeader
 [nN]( )?[=]( )?[0-9]{1,}
