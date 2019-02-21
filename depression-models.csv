@@ -1,0 +1,38 @@
+dictionaryNameHeader,dictionaryRegexHeader,modelCategory
+forcedswimRegex,([fF]orced|[pP]orsolt) [sS]wim|FST,Stress
+cforcedswimRegex,[cC]hronic [fF]orced [sS]wim|CFST|cFST,Stress
+tailsuspensionRegex,[tT]ail [sS]uspension [tT]est|TST,Stress
+chronicstressRegex,([cC]hronic)?(-| )?([uU]npredictable|[vV]ariable)?(-| )?([mM]ild)?(-| )? [sS]tress|UMS|CUS|CUMS|CMS|CVS,Stress
+emotionalstressRegex,([cC]hronic)?(-| )?([pP]sychosocial|[eE]motional) [sS]tress,Stress
+forcedsubordinationRegex,[fF]orced [sS]ubordination,Stress
+socialdefeatRegex,[sS]ocial [dD]efeat ([sS]tress)?|SDS,Stress
+matdeprevationRegex,[mM]aternal [dD]eprivation,Stress
+learnedhelplessRegex,([cC]hronic)?(-| )?[lL]earned [hH]elplessness|LH,Genetic
+intermitstressRegex,([iI]ntermittent|[cC]hronic)?(-| )?([wW]alking|[sS]wim|[rR]estraint) [sS]tress|ISS,Stress
+romanavoidanceRegex,[rR]oman ([lL]ow|[hH]igh) [aA]voidance|RLA|RHA,Genetic
+highanxietyRegex,([lL]ow|[hH]igh) [aA]nxiety behaviou?r|HAB|LAB,Genetic
+DPATsensRegex,([lL]ow|[hH]igh) (8-OH-)?DPAT [sS]ensitive|HDS|LDS,Genetic
+distinctdepressedRegex,"([dD]istinct)?(-| )?['|""]?[dD]epressed['|""]?(-| )?[rR]at(-| )?[lL]ine|DRL",Genetic
+alphaKORegex,[aA]lpha[-| ]?[2A adrenergic ([kK]nock(-| )?out|KO,Genetic
+sertKORegex,SERT [kK]nock(-| )?out|SERT[-| ]?KO,Genetic
+serttransKORegex,"([sS]erotonin [tT]ransporter|5-HTT|\(htt, slc6a4\)) ([kK]nock(-| )?out|KO)",Genetic
+DATKORegex,DAT[-| ]?([kK]nock(-| )?out|KO),Genetic
+gluKORegex,GluD1[-| ]?([kK]nock(-| )?out|KO),Genetic
+ENUmutRegex,N-ethyl-N-nitrosourea|ENU muta\w+,Genetic
+LPSinsultRegex,([lL]ipopolysaccharide|LPS) ([aA]dministration[iI]nsult),Pharmacological
+CORTinjectRegex,[cC]orticosterone|CORT inject(ion|ed|s)?,Pharmacological
+DEXRegex,[dD]examethasone [sS]odium-[pP]hosphate|DEX|[dD]examethasone [iI]nject(ion|ed|s)?,Pharmacological
+subDEXRegex,subcutaneous inject(ion|ed|s)? of [dD]examethasone [sS]odium-[pP]hosphate|DEX|[dD]examethasone,Pharmacological
+CORTdepRegex,([cC]orticosterone|CORT)[-| ][iI]nduced [dD]epression,Pharmacological
+CRFoverexpRegex,CRF [oO]verexpressing|[oO]verexpressing CRF|CRF[-| ]?OE,Genetic
+drugwithdrawRegex,[pP]sychostimulant|[cC]ocaine|[aA]mphetamine[-| ]withdrawal,Pharmacological
+isoTreatRegex,[iI]sotretinoin[-| ]treat(ed|ment)?,Pharmacological
+respTreatRegex,[rR]eserpine[-| ]treat(ed|ment)?,Pharmacological
+trypTreatRegex,[tT]ryptophan[-| ]treat(ed|ment)?,Pharmacological
+magnesiumRestRegex,[mM]agnesium[-| ][rR]estrict\w+,Pharmacological
+olfactBulbRegex,[oO]lfactory [[bB]ulbectomy|[dD]eafferentation],Surgical
+OBXRegex,OBX[-| ][iI]nduced [bB]ehaviou?ral [sS]yndrome,Surgical
+microbiomeRegex,[mM]icrobio[ome|ta]|[dD]ysbiosis,Pharmacological
+FSLRegex,[fF]linders [sS]ensitive ([lL]ine)?|FSL,Genetic
+wistarKyotoRegex,([wW]istar[-| ][kK]yoto|WKY),Genetic
+fawnhoodRegex,[fF]awn[-| ][hH]ooded|FH,Genetic
