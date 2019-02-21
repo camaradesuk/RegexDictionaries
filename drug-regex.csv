@@ -1,0 +1,117 @@
+dictionaryNameHeader,dictionaryRegexHeader,drugCategory
+ademetionineRegex,[aA]demetionine|[sS](-| )?[aA]denosyl-L-methionine|SAMe|SAM|SAM-e|[hH]eptral|[tT]ransmetil|[sS]amyl|[aA]do[mM]et,MAOI
+ademetionineSAdenosylRegex,[aA]demetionine|S[-| ]?[aA]denosyl methionine|SAMe|MSI[-| ]?19\(0|5\)|[sS]trada,MAOI
+agomelatineRegex,[aA]gomelatine|[vV]aldoxan|[mM]elitor|[tT]hymanax,Other
+alphaMethylRegex,(\p{Greek}|[aA]lpha)?(-| )?[mM]ethyltryptamine|(\p{Greek}|[aA]lpha|[aA])MT|[iI]ndopan,Serotonin Acting
+amineptineRegex,[aA]mineptine|[sS]urvector|[mM]aneon|[dD]irectim|[nN]eolior|[pP]rovector|[vV]iaspera,TCA
+amisulprideRegex,[aA]misulpride|[sS]olian|[aA]mazeo|[aA]mipride|[aA]mival|[sS]oltus|[sS]ulpitac|[sS]ulprix|[sS]ocian,Antipsychotic
+amitifadineRegex,"[aA]mitifadine|DOV[-| ]?21,947|EB[-| ]?1010",Other
+amitriptylineRegex,[aA]mitriptyline|[eE]lavil|[eE]ndep,TCA
+amitriptylinePerphenRegex,[aA]mitriptyline[\| |\/|with|w\/]*?[pP]erphenazine|[eE]tafron|[dD]uo-[vV]il|[tT]riavil|[tT]riptafen,Combination
+amitriptylinoxideRegex,[aA]mitriptylinoxide|[aA]mioxid|[aA]mbivalon|[eE]quilibrin|[aA]mitriptyline N-oxide,TCA
+amoxapineRegex,[aA]moxapine|[aA]sendin|[aA]sendis|[dD]efanyl|[dD]emolox|[oO]xamine|[oO]xcap|[aA]disen|[aA]molife,TeCA
+apimostinelRegex,[aA]pimostinel|NRX[-| ]?1074|AGN[-| ]?241660|[tT]hreonyl-prolyl-2R-\(2-benzyl\)-prolyl-threonine amide,NMDA
+aripiprazoleRegex,[aA]ripiprazole|[aA]bilify,Antipsychotic
+atomoxetineRegex,[aA]tomoxetine|[sS]trattera,NRI
+av101Regex,AV[-| ]?101|4[-| ]?chlorokynurenine|4[-| ]?Cl[-| ]?KYN|3-(4-Chloroanthraniloyl)-DL-alanine,NMDA
+basimglurantRegex,[bB]asimglurant|RG7090|RO[-| ]?4917523,Other
+benmoxinRegex,[bB]enmoxin|[nN]euralex|[nN]erusil|[mM]ebamoxine,MAOI
+bifemelaneRegex,[bB]ifemelane|[aA]lnert|[cC]eleport|[bB]ifemelane [hH]ydrochloride| 4-(O-benzylphenoxy)-N-methylbutylamine,MAOI
+brexpiprazoleRegex,[bB]rexpiprazole|[rR]exulti|OPC[-| ]?34712,Antipsychotic
+bupropionRegex,[bB]upropion|[wW]ellbutrin|[zZ]yban,Serotonin Acting
+buspironeRegex,[bB]uspirone|[bB]u[sS]par,Serotonin Acting
+butriptylineRegex,[bB]utriptyline|[eE]vadyne|[eE]vadene|[eE]vasidol|[cC]entrolese,TCA
+caroxazoneRegex,[cC]aroxazone|[sS]urodil|[tT]imostenil,MAOI
+cerc301Regex,CERC[-| ]?301|MK[-| ]?0657|[rR]islenemdaz,NMDA
+citalopramRegex,[cC]italopram|[cC]elexa|[cC]ipramil,SSRI
+clomipramineRegex,[cC]lomipramine|[aA]nafranil,TCA
+demexiptilineRegex,[dD]emexiptiline|[dD]eparon|[tT]inoran,TCA
+desipramineRegex,[dD]esipramine|[nN]orpramin|[pP]ertofrane|[dD]esmethylimipramine,TCA
+desvenlafaxineRegex,[dD]esvenlafaxine|[pP]ristiq|[dD]esfax|[eE]llefore|O[-| ]?desmethylvenlafaxine,SNRI
+dibenzepinRegex,[dD]ibenzepin|[nN]overil|[vV]ictoril|[aA]nslopax|[dD]eprex|[eE]catril|[nN]eodit,TCA
+dimetacrineRegex,[dD]imetacrine|[iI]stonil|[iI]stonyl|[lL]inostil|[mM]iroistonil|[dD]imethacrine|[aA]cripramine,TCA
+dosulepinRegex,[dD]osulepin|[pP]rothiaden|[dD]othep|[tT]haden|[dD]opress|[dD]othiepin,TCA
+doxepinRegex,[dD]oxepin|[aA]dapin|[sS]inequan,TCA
+duloxetineRegex,[dD]uloxetine|[cC]ymbalta,SNRI
+eprobemideRegex,[eE]probemide|[bB]efol,MAOI
+escitalopramRegex,[eE]scitalopram|[lL]exapro|[cC]ipralex,SSRI
+esketamineRegex,[eE]sketamine|JNJ-54135419|[kK]etanest S|\([sS]\)[-| ]?[kK]etamine|[sS]\(\+\)[-| ]?[kK]etamine,NMDA
+etoperidoneRegex,[eE]toperidone|[aA]xiomin|[eE]tonin|[cC]entren|[dD]epracer|[eE]toran|[sS]taff|[tT]ropene|[cC]lopradone|[tT]riazolinone,SARI
+etryptamineRegex,[eE]tryptamine|(\p{Greek}|[aA]lpha)?(-| )?[eE]thyltryptamine|([aA]lpha|[aA]|\p{Greek})(-)?ET|[mM]onase,Serotonin Acting
+evt10Regex,EVT[-| ]?10\(1|3\)|ENS[-| ]?10\(1|3\),NMDA
+fluoxetineRegex,[fF]luoxetine|[pP]rozac|[sS]arafem,SSRI
+flupentixolRegex,[fF]lupentixol[\| |\/|with|w\/]*?[mM]elitracen|[dD]eanxit|[pP]lacida|[fF]r(a|e)nxit|[aA]nxidreg|[sS]ensit|[rR]enxit|[mM]elixol|[mM]elanxit|[bB]enzit|[lL]eanxit,Combination
+fluvoxamineRegex,[fF]luvoxamine|[lL]uvox|[fF]averin|[fF]evarin|[fF]loxyfral|[dD]umyrox,SSRI
+hypericumRegex,([hH]ypericum|[hH].) [pP]erforatum|([sS][tT]|[sS]aint)(.| )?[jJ]ohn(')?s(-| )?[wW]ort|SJW|[jJ]arsin|[kK]ira|[mM]ovina,Other
+imipramineRegex,[iI]mipramine|[tT]ofranil|[mM]elipramine,TCA
+imipraminoxideRegex,[iI]mipraminoxide|[iI]miprex|[eE]lepsin|[iI]mipramine N-oxide,TCA
+indalpineRegex,[iI]ndalpine|[uU]pstene,SSRI
+indeloxazineRegex,[iI]ndeloxazine|[eE]len|[nN]oin|[Ii]ndeloxazine [hH]ydrochloride,NMDA
+iprindoleRegex,[iI]prindole|[pP]rondol|[gG]alatur|[tT]etran|[pP]ramindole,TCA
+iproclozideRegex,[iI]proclozide|[sS]ursum|[sS]inderesin,MAOI
+iproniazidRegex,[iI]proniazid|[mM]arsilid|[rR]ivivol[eE]uphozid|[iI]prazid|[iI]pronid|[iI]pronin,MAOI
+isocarboxazidRegex,[iI]socarboxazid|[mM]arplan|[mM]arplon|[eE]nerzer,MAOI
+ketamineRegex,[kK]etamine|[kK]etalar,NMDA
+levomilnacipranRegex,[lL]evomilnacipran|[fF]etzima,SNRI
+lithiumRegex,[lL]ithium ([sS]alts|[cC]itrate)?|[eE]skalith|[lL]ithobid|[cC]amcolit,Unknown
+lofepramineRegex,[lL]ofepramine|[lL]omont|[gG]amanil|[tT]ymelyt,TCA
+lurasidoneRegex,[lL]urasidone|[lL]atuda ,Antipsychotic
+maprotilineRegex,[mM]aprotiline|[lL]udiomil|[dD]eprilept|[pP]symion,TeCA
+mebanazineRegex,[mM]ebanazine|[aA]ctomol,MAOI
+medifoxamineRegex,"[mM]edifoxamine|[cC]l\p{Latin}dial|[gG]erdaxyl|[mM]edifoxamine [fF]umarate|N,N-dimethyl-2,2-diphenoxyethylamine",Serotonin Acting
+melitracenRegex,[mM]elitracen|[dD]ixeran|[mM]elixeran|[tT]rausabun|[aA]daptol|[tT]hymeol,TCA
+metapramineRegex,[mM]etapramine|[tT]imaxel|[pP]rodastene,TCA
+metralindoleRegex,[mM]etralindole|[iI]nkazan,MAOI
+mianserinRegex,[mM]ianserin|[bB]olvidon|[nN]orval|[tT]olvon|[dD]epnon|[lL]antanon|[lL]erivon|[lL]umin|[tT]olmin,TeCA
+milnacipranRegex,[mM]ilnacipran|[iI]xel|[sS]avella|[dD]alcipran|[tT]oledomin,SNRI
+minaprineRegex,[mM]inaprine|[bB]rantur|[cC]antor,MAOI
+mirtazapineRegex,[mM]irtazapine|[rR]emeron,TeCA
+moclobemideRegex,[mM]oclobemide|[aA]urorix|[mM]anerix|[aA]mira|[cC]lobemix|[dD]epnil,MAOI
+nefazodoneRegex,[nN]efazodone|[nN]efadar|[sS]erzone|[dD]utonin,SARI
+nialamideRegex,[nN]ialamide|[nN]iamid|[nN]iamide|[nN]uredal|[sS]urgex,MAOI
+nitroxazepineRegex,[nN]itroxazepine|[sS]intamil,TCA
+nomifensineRegex,[nN]omifensine|[mM]erital|[aA]lival,NDRI
+nortriptylineRegex,[nN]ortriptyline|[pP]amelor|[aA]ventyl|[sS]ensoval|[nN]orpress|[aA]llegron|[nN]oritren,TCA
+noxiptilineRegex,[nN]oxiptiline|[aA]gedal|[eE]lronon|[nN]ogedal|[nN]oxiptyline|[dD]ibenzoxine,TCA
+octamoxinRegex,[oO]ctamoxin|[xX]imaol|[nN]imaol|2-octylhydrazine,MAOI
+olanzapineRegex,[oO]lanzapine|[zZ]yprexa,Antipsychotic
+olanzapineFluoxRegex,[oO]lanzapine[\| |\/|with|w\/]*?[fF]luoxetine|[sS]ymbyax|[cC]inol ([fF]orte|[pP]lus)|[dD]epten-OZ|M-Olan [pP]lus|Oladay-F|[oO]lanex-F|[oO]lapin ([fF]orte|[pP]lus)|[oO]lorest-F,Combination
+opipramolRegex,[oO]pipramol|[iI]nsidon|[pP]ramolan|[eE]nsidon|[oO]primol,TCA
+oxaflozaneRegex,[oO]xaflozane|[cC]onflictan,Serotonin Acting
+oxitriptanRegex,[oO]xitriptan|5-[hH]ydroxytryptophan|5-HTP|[cC]incofarm|[lL]evothym|[tT]riptum|[lL]evotonine|[oO]xyfan|[tT]elesol|[tT]ript-OH,Serotonin Acting
+paroxetineRegex,[pP]aroxetine|[pP]axil|[sS]eroxat,SSRI
+phenelzineRegex,[pP]henelzine|[nN]ardil|[nN]ardelzine,MAOI
+pheniprazineRegex,[pP]heniprazine|[cC]atron|[cC]avodil,MAOI
+phenoxypropazineRegex,[pP]henoxypropazine|[dD]razine,MAOI
+pipofezineRegex,[pP]ipofezine|[aA]zafen|[aA]zaphen,TCA
+pirlindoleRegex,[pP]irlindole|[pP][i|y]razidol|[lL]ifril,MAOI
+pivagabineRegex,[pP]ivagabine|[tT]onerg|N-pivaloyl-(\p{Greek}|[gG]amma)-aminobutyric [aA]cid|N-pivaloyl-GABA,Unknown
+pivhydrazineRegex,[pP]ivhydrazine|[tT]ersavid|[pP]ivalylbenzhydrazine|[pP]ivazide,MAOI
+propizepineRegex,[pP]ropizepine|[dD]epressin|[vV]agran,TCA
+protriptylineRegex,[pP]rotriptyline|[vV]ivactil,TCA
+quetiapineRegex,[qQ]uetiapine|[sS]eroquel,Antipsychotic
+quinupramineRegex,[qQ]uinupramine|[kK]inupril|[kK]evopril|[aA]deprim|[qQ]uinuprine,TCA
+rapastinelRegex,[rR]apastinel|GLYX[-| ]?13|BV[-| ]?102,NMDA
+reboxetineRegex,[rR]eboxetine|[eE]dronax|[pP]rolift,NRI
+risperidoneRegex,[rR]isperidone|[rR]isperdal,Antipsychotic
+safrazineRegex,[sS]afrazine|[sS]afra,MAOI
+selegilineRegex,[sS]elegiline|[eE]ldepryl|[zZ]elapar|[eE]msam|L-deprenyl|[aA]nipryl,MAOI
+sertralineRegex,[sS]ertraline|[zZ]oloft|[lL]ustral,SSRI
+setiptilineRegex,[sS]etiptiline|[tT]ecipul|[tT]eciptiline,TeCA
+tandospironeRegex,[tT]andospirone|[sS]ediel|[mM]etanopirone,Serotonin Acting
+teniloxazineRegex,[tT]eniloxazine|[lL]ucelan|[mM]etatone|[sS]ufoxazine|[sS]ulfoxazine,Other
+thyroxineRegex,[tT]hyroxine|T4|[tT]riiodothyronine|T3,Other
+tianeptineRegex,[tT]ianeptine|[sS]tablon|[cC]oaxil|[tT]atinol|[tT]ianeurax|[sS]alymbra,TCA
+tiazesimRegex,[tT]iazesim|[aA]ltinil|[tT]hiazesim|[tT]hiazenone,TCA
+tofenacinRegex,[tT]ofenacin|[eE]lamol|[tT]ofacine|[tT]ofalin|[tT]ofenacin hydrochloride,SNRI
+toloxatoneRegex,[tT]oloxatone|[hH]umoryl,MAOI
+tranylcypromineRegex,[tT]ranylcypromine|[pP]arnate,MAOI
+tranylcypromineTrifluoRegex,[tT]ranylcypromine[\| |\/|with|w\/]*?[tT]rifluoperazine|[pP]arstelin|[pP]armodalin|[jJ]atrosom N|[sS]telapar,Combination
+trazodoneRegex,[tT]razodone|[dD]esyrel,SARI
+trimipramineRegex,[tT]rimipramine|[sS]urmontil|[rR]hotrimine|[sS]tangyl,TCA
+tryptophanRegex,[tT]ryptophan|[tT]ryptan|Trp|[oO]ptimax|[aA]minomine,Serotonin Acting
+venlafaxineRegex,[vV]enlafaxine|[eE]ffexor|[lL]anvexin|[vV]iepax|[tT]revilor,SNRI
+vilazodoneRegex,[vV]ilazodone|[vV]iibryd,SMS
+viloxazineRegex,[vV]iloxazine|[vV]ivalan|[eE]movit|[vV]ivarint|[vV]icilan,NRI
+vortioxetineRegex,[vV]ortioxetine|[tT]rintellix|[bB]rintellix,SMS
+zimelidineRegex,[zZ]imelidine|[nN]ormud|[zZ]elmid,SSRI
